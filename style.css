@@ -152,4 +152,19 @@ p{
         font-size: 5em;
     }
 }
+@media (max-width: 400px) {
+    .banner .content .model {
+        background-image: url(images/v.png);
+        margin: auto;
+        width: 91%;
+        height: 45vh;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-size: auto 130%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        z-index: 1;
+    }
+}
 
