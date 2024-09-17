@@ -152,18 +152,4 @@ p{
         font-size: 5em;
     }
 }
-@media screen and (max-width: 300px) {
-    .banner .content .model{
-   
-    background-image: url('images/v.png');
-    width: 50%;
-    height: 75vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    z-index: 1;
-}
-}
+
